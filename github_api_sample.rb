@@ -39,7 +39,13 @@ begin
     end
   end
 
-# let's find out more specifics about the repo
+  # let's find out more specifics about the repo
+  command = "https://api.github.com/repos/#{username}/#{reponame}"
+  call_result = JSON.parse(RestClient.get(command))
+  repo_name = call_result['name']
+  full_name = call_result['full_name']
+  puts "repo name #{repo_name}, full_name #{full_name}"
+
   # watchers
   command = "https://api.github.com/repos/#{username}/#{reponame}/watchers"
   watch_result = JSON.parse(RestClient.get(command))
