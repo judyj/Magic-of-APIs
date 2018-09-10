@@ -16,4 +16,4 @@ In order to run the ruby code, you must install two gems:
 $ gem install rest-client  # allows it to use the rest calls properly
 $ gem install json         # allows it to decode the json
 
-(more to come)
+(more to come soon)
