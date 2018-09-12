@@ -13,9 +13,11 @@ You can also call it with a curl command:
 ...or use the sample ruby code in this repo to see how to get and translate json
 
 In order to run the ruby code, you must install two gems:<br>
-`$ gem install rest-client  # allows it to use the rest calls properly`
+`$ gem install rest-client  # allows it to use the rest calls properly`<br>
 `$ gem install json         # allows it to decode the json`
-<br>...Now, run the code
+
+
+...Now, run the code<br>
 `$ ruby github_api_sample.rb`
 
 and see what happens!
