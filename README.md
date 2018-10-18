@@ -1,5 +1,7 @@
 # Magic-of-APIs
-Demo repo for my upcoming blog
+Demo repo for my upcoming blog..
+
+Blog link is here:  https://www.onyxpoint.com/blog/magic-of-apis/
 
 This repo will show you how to use the api via command line and ruby code to get information on the repo itself.
 Slightly recursive and maybe fun!
